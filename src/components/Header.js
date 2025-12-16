@@ -29,19 +29,19 @@ const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { totalItems } = useSelector(state => state.cart);
-  const { user, isAuthenticated } = useSelector(state => state.auth);
-  const [anchorEl, setAnchorEl] = useState(null);
+  // const { user, isAuthenticated } = useSelector(state => state.auth);
+  // const [anchorEl, setAnchorEl] = useState(null);
   const [profileAnchorEl, setProfileAnchorEl] = useState(null);
   const [showBanner, setShowBanner] = useState(true);
   const [searchValue, setSearchValue] = useState('');
 
-  const handleMenuOpen = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+  // const handleMenuOpen = (event) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
 
-  const handleMenuClose = () => {
-    setAnchorEl(null);
-  };
+  // const handleMenuClose = () => {
+  //   setAnchorEl(null);
+  // };
 
   const handleProfileMenuOpen = (event) => {
     setProfileAnchorEl(event.currentTarget);
