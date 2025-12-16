@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import {
   Container,
   Box,
@@ -21,7 +21,6 @@ import {
 import {
   Email,
   CalendarToday,
-  Edit,
   Logout,
   AccountCircle,
 } from '@mui/icons-material';
